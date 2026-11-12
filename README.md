@@ -33,6 +33,7 @@
   - [4) 单体部署（单进程）](#4-单体部署单进程)
   - [5) Makefile 常用命令](#5-makefile-常用命令)
 - [Docker 部署权限说明](#docker-部署权限说明)
+- [一键部署](#一键部署)
 - [常见问题](#常见问题)
 - [目录结构与主要文件](#目录结构与主要文件)
 - [致谢](#致谢)
@@ -255,6 +256,10 @@ docker run ... \
 ```
 
 不推荐做法：直接 `chmod -R 777`。这虽然省事，但权限过宽不安全，仅建议临时排查时使用。
+
+## 一键部署
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/NginxPulse/)
 
 ## 常见问题
 
